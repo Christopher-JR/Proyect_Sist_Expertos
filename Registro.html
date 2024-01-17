@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+<body>
+    <div class="registro">
+        <form action="Registro.php" method="post">
+            <h1>Registro</h1>
+            <input type="text" name="nombre" placeholder="Nombre"><br>
+            <input type="text" name="apellidos" placeholder="Apellidos"><br>
+            <input type="text" name="correo" placeholder="Correo electronico"><br>
+            <input type="password" name="contraseña" placeholder="Contraseña"><br>
+            <select name="preferencia">
+                <option value="" disabled>Preferencia turistica</option>
+                <option value="1">1- Playa</option>
+                <option value="2">2- Montaña</option>
+                <option value="3">3- Ciudad</option>
+              </select><br>
+            <button type="submit" name="enviar">Registrarse</button><br>
+            <a href="Login.html">Ingresar</a>
+        </form>
+    </div>
+</body>
+</html>
